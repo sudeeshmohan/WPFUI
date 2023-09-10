@@ -9,10 +9,14 @@
           "System.Text.Json": "5.0.2"
         },
         "compile": {
-          "lib/net5.0-windows7.0/ControlzEx.dll": {}
+          "lib/net5.0-windows7.0/ControlzEx.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0-windows7.0/ControlzEx.dll": {}
+          "lib/net5.0-windows7.0/ControlzEx.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -25,10 +29,14 @@
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
         },
         "compile": {
-          "lib/net6.0-windows7.0/MahApps.Metro.dll": {}
+          "lib/net6.0-windows7.0/MahApps.Metro.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0-windows7.0/MahApps.Metro.dll": {}
+          "lib/net6.0-windows7.0/MahApps.Metro.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -42,12 +50,20 @@
       "MahApps.Metro.IconPacks.BoxIcons/4.11.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll": {},
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {}
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll": {},
-          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {}
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -56,10 +72,14 @@
       "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
         "type": "package",
         "compile": {
-          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {}
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -68,10 +88,14 @@
       "System.Text.Json/5.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -240,21 +264,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WPF UI\\src\\UIDesign\\UIDesign\\UIDesign.csproj",
+      "projectUniqueName": "D:\\WPF UI\\WPFUI\\src\\UIDesign\\UIDesign\\UIDesign.csproj",
       "projectName": "UIDesign",
-      "projectPath": "E:\\WPF UI\\src\\UIDesign\\UIDesign\\UIDesign.csproj",
+      "projectPath": "D:\\WPF UI\\WPFUI\\src\\UIDesign\\UIDesign\\UIDesign.csproj",
       "packagesPath": "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\",
-      "outputPath": "E:\\WPF UI\\src\\UIDesign\\UIDesign\\obj\\",
+      "outputPath": "D:\\WPF UI\\WPFUI\\src\\UIDesign\\UIDesign\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Sudeesh Mohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -262,10 +284,11 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -299,7 +322,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -311,7 +335,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YXgH7fQy7TWoHyBcwPFRS6KxbIhBc/5ouWuQCWcm/qNfXEi1yg+NDUtWvi3n00OXpGbU/JySypUa9vBmHGSfjg==",
+  "dgSpecHash": "doz4lpUkJ4xxa83yNspxh92WtDFlizYIGzP14pxD3Zwe78/mmWJVIK3SrzeJOTC4UfvGXTuC2HwnP86fkPLVng==",
   "success": true,
-  "projectFilePath": "E:\\WPF UI\\src\\UIDesign\\UIDesign\\UIDesign.csproj",
+  "projectFilePath": "D:\\WPF UI\\WPFUI\\src\\UIDesign\\UIDesign\\UIDesign.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
     "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\mahapps.metro\\3.0.0-alpha0457\\mahapps.metro.3.0.0-alpha0457.nupkg.sha512",
