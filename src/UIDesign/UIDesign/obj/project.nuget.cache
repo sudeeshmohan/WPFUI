@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "YXgH7fQy7TWoHyBcwPFRS6KxbIhBc/5ouWuQCWcm/qNfXEi1yg+NDUtWvi3n00OXpGbU/JySypUa9vBmHGSfjg==",
+  "success": true,
+  "projectFilePath": "E:\\WPF UI\\src\\UIDesign\\UIDesign\\UIDesign.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\mahapps.metro\\3.0.0-alpha0457\\mahapps.metro.3.0.0-alpha0457.nupkg.sha512",
+    "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\mahapps.metro.iconpacks.boxicons\\4.11.0\\mahapps.metro.iconpacks.boxicons.4.11.0.nupkg.sha512",
+    "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Sudeesh Mohan\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
