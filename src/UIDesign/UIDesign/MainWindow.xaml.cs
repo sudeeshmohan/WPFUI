@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Collections.Generic;
+using System.Windows;
 
 namespace UIDesign
 {
@@ -7,9 +8,15 @@ namespace UIDesign
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<string> menulst = new List<string>();
         public MainWindow()
         {
             InitializeComponent();
+            menulst.Add("A");
+            menulst.Add("B");
+            menulst.Add("C");
+            menulst.Add("D");
+            this.DataContext = menulst;
         }
 
 

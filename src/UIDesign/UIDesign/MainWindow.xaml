@@ -224,33 +224,30 @@
                             BorderBrush="#360040"
                             BorderThickness="0 0.5 0.5 0"
                              CornerRadius="0 0 0 10">
-                            <StackPanel
+                            <StackPanel>
+                            <RadioButton 
+                                Style="{StaticResource menuButton}"
+                                           Width="44"
+                                            Height="44"
+                                         Tag="#F6f6f6}">
+                                <StackPanel
                                     Orientation="Vertical">
-                               
-                                    <Button 
-                                        Margin="10"
-                                       Height="32"
-                                       Width="32"
-                                        FontFamily="Lato"
+                                    <Border Background="#616061"
+                                            CornerRadius="7"
+                                            Cursor="Hand"
+                                            Width="32"
+                                            Height="32">
+                                    <TextBlock
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
                                         FontSize="17"
-                                        Content="A"
-                                        Foreground="White"
-                                        BorderBrush="Transparent"
-                                        BorderThickness="0"
-                                        Background="#616061"
-                                        />
-                                <Button 
-                                        Margin="10"
-                                       Height="32"
-                                       Width="32"
-                                        FontFamily="Lato"
-                                        FontSize="17"
-                                        Content="B"
-                                        Foreground="White"
-                                        BorderBrush="Transparent"
-                                        BorderThickness="0"
-                                        Background="#616061"
-                                        />
+                                        FontWeight="SemiBold"
+                                        Foreground="AntiqueWhite"
+                                        >A</TextBlock>
+                                    </Border>
+                                </StackPanel>
+                            </RadioButton>
+                                
                             </StackPanel>
                         </Border>
                     </Grid>

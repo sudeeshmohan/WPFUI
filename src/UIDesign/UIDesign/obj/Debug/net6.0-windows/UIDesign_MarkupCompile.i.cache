@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\WPF\WPFUI\src\UIDesign\UIDesign\App.xaml
-11407045341
+21588754586
 
 5-1295365322
 199965544918
-MainWindow.xaml;
+MainWindow.xaml;Styles\ButtonStyles.xaml;
 
 True
 

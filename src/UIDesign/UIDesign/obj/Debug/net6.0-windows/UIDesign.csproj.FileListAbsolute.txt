@@ -27,3 +27,4 @@ E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\refint\UIDesign.dll
 E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.pdb
 E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.genruntimeconfig.cache
 E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\ref\UIDesign.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\Styles\ButtonStyles.baml
