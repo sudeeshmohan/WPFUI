@@ -8,43 +8,65 @@
     xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="MainWindow"
-    Width="800"
-    Height="450"
+    MinWidth="800"
+    MinHeight="450"
+    AllowsTransparency="True"
     Background="Transparent"
     WindowStartupLocation="CenterScreen"
     WindowStyle="None"
     mc:Ignorable="d">
     <Window.Resources>
+        <Style x:Key="ArrowButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="50">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
         <Style x:Key="CustomTextBoxStyle" TargetType="TextBox">
             <Setter Property="Background" Value="#FF22252C" />
-            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Foreground" Value="#EBEDEA" />
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="TextBox">
                         <Border
                             MinWidth="{TemplateBinding MinWidth}"
-                            Margin="3"
                             Background="#3E2142"
                             BorderBrush="#FFFFFF"
-                            BorderThickness="1"
+                            BorderThickness="0.5"
                             CornerRadius="5">
                             <Grid>
                                 <StackPanel Margin="8">
                                     <ScrollViewer x:Name="PART_ContentHost" />
                                 </StackPanel>
-                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                <StackPanel 
+                                            VerticalAlignment="Center" 
+                                            HorizontalAlignment="Center" 
+                                            Orientation="Horizontal">
                                     <iconPacks:PackIconBoxIcons
                                         Name="SearchIcon"
-                                        Margin="5,0,0,0"
+                                        Margin="5,0,10,0"
                                         VerticalAlignment="Center"
+                                        Foreground="#EBEDEA"
                                         VerticalContentAlignment="Center"
+                                        
                                         Kind="RegularSearch"
                                         Visibility="Collapsed" />
                                     <TextBlock
                                         Name="PART_TempText"
                                         Padding="8,8,8,8"
-                                        Foreground="#FFFFFF"
-                                        Text="Search......"
+                                        VerticalAlignment="Center"
+                                        Foreground="#EBEDEA"
+                                        Text="Search"
                                         Visibility="Collapsed" />
 
                                 </StackPanel>
@@ -60,75 +82,199 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="mainBtns" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Transparent"/>
+            <Setter Property="Width" Value="12"/>
+            <Setter Property="Height" Value="12"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="50">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="mainBorder" TargetType="Border">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="12"/>
+            <Setter Property="Height" Value="12"/>
+            <Setter Property="CornerRadius" Value="20"/>
+        </Style>
     </Window.Resources>
 
 
     <Border
-        Background="#301134"
+        Background="White"
         BorderBrush="Transparent"
         BorderThickness="0"
         CornerRadius="10">
-        <Grid Background="#301134">
+        <Grid Background="Transparent">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Grid Grid.Row="0" Height="40">
+            <Border
+                Background="#301134"
+                BorderThickness="0"
+                CornerRadius="10,10,0,0"
+                x:Name="headreBorder"
+                MouseDown="headreBorder_MouseDown"
+                MouseLeftButtonDown="headreBorder_MouseLeftButtonDown"
+                BorderBrush="Transparent" >
+            <Grid Grid.Row="0"  >
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                    <ColumnDefinition />
+                    <ColumnDefinition Width="0.8*" />
+                    <ColumnDefinition Width="0.7*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
                 <Grid>
-                    <StackPanel Orientation="Horizontal">
+                    <StackPanel 
+                        Margin="10"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                            <Border Margin="10 0 0 0"> 
+                            </Border>
                         <Border
-                            Width="30"
-                            Height="30"
-                            Background="#ED6A5E"
-                            CornerRadius="20">
+                           Style="{StaticResource mainBorder}"
+                            Background="#ED6A5E">
                             <Button
-                                Width="30"
-                                Height="30"
-                                Background="Transparent"
-                                BorderBrush="Transparent"
-                                Content="x"
-                                Foreground="White" />
+                                ToolTip="Close"
+                               Style="{StaticResource mainBtns}"
+                                x:Name="closebtn"
+                                Click="closebtn_Click"
+                                Foreground="White"  />
                         </Border>
                         <Border
-                            Width="30"
-                            Height="30"
-                            Background="#F4BD4F"
-                            CornerRadius="20">
+                               Style="{StaticResource mainBorder}"
+                            Background="#F4BD4F" >
                             <Button
-                                Width="30"
-                                Height="30"
-                                Background="Transparent"
-                                BorderBrush="Transparent"
-                                Content="x"
-                                Foreground="White" />
+                              ToolTip="Maximize"
+                              Style="{StaticResource mainBtns}"
+                                Foreground="White" 
+                                Click="Button_Click" />
                         </Border>
                         <Border
-                            Width="30"
-                            Height="30"
-                            Background="#61C354"
-                            CornerRadius="20">
+                               Style="{StaticResource mainBorder}"
+                            Background="#61C354">
                             <Button
-                                Width="30"
-                                Height="30"
-                                Background="Transparent"
-                                BorderBrush="Transparent"
-                                Content="x"
-                                Foreground="White" />
+                                 Style="{StaticResource mainBtns}"
+                                ToolTip="Minimize"
+                                x:Name="minimizebtn"
+                                Click="minimizebtn_Click"
+                                />
                         </Border>
+
                     </StackPanel>
                 </Grid>
-                <Grid Grid.Column="1">
+                    <Grid Grid.Column="1">
+                        <StackPanel 
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right"
+                            Orientation="Horizontal">
+                            <Button
+                                Margin="5 0 15  0"
+                                Style="{StaticResource ArrowButton}">
+                            <iconPacks:PackIconBoxIcons 
+                                
+                                Kind="RegularLeftArrowAlt" 
+                                                        Foreground="White"/>
+                            </Button>
+                            <Button
+                                 Margin="15 0 10  0"
+                                Style="{StaticResource ArrowButton}">
+                                <iconPacks:PackIconBoxIcons 
+                                 
+                                Kind="RegularRightArrowAlt" 
+                                                        Foreground="White"/>
+                            </Button>
+                           
+                                <iconPacks:PackIconBoxIcons 
+                                Margin="15 0 10  0"
+                                Kind="RegularTime" 
+                                                        Foreground="White"/>
+                            
+                        </StackPanel>
+                    </Grid>
+                      <Grid Grid.Column="2">
                     <TextBox
-                        Height="40"
-                        Padding="19,0,0,0"
+                        VerticalAlignment="Center"
+                        Margin="0 10 10 10"
+                        VerticalContentAlignment="Center"
                         Style="{StaticResource CustomTextBoxStyle}" />
                 </Grid>
             </Grid>
+            </Border>
+            <Border Grid.Row="1">
+                <Grid>
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition MinWidth="70" Width="0.1"/>
+                        <ColumnDefinition Width="0.4*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Background="Transparent" >
+                        <Border 
+                            Background="#3F0F3F" 
+                            BorderBrush="#360040"
+                            BorderThickness="0 0.5 0.5 0"
+                             CornerRadius="0 0 0 10">
+                            <StackPanel
+                                    Orientation="Vertical">
+                               
+                                    <Button 
+                                        Margin="10"
+                                       Height="32"
+                                       Width="32"
+                                        FontFamily="Lato"
+                                        FontSize="17"
+                                        Content="A"
+                                        Foreground="White"
+                                        BorderBrush="Transparent"
+                                        BorderThickness="0"
+                                        Background="#616061"
+                                        />
+                                <Button 
+                                        Margin="10"
+                                       Height="32"
+                                       Width="32"
+                                        FontFamily="Lato"
+                                        FontSize="17"
+                                        Content="B"
+                                        Foreground="White"
+                                        BorderBrush="Transparent"
+                                        BorderThickness="0"
+                                        Background="#616061"
+                                        />
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                    <Grid Background="Transparent" Grid.Column="1" >
+                        <Border 
+                             BorderBrush="#360040"
+                            BorderThickness="0 0.5 0.5 0"
+                            Background="#3F0F3F" >
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.1*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Border 
+                             BorderBrush="#ffffff"
+                            BorderThickness="0 0 0 0.3"
+                            Background="#3F0F3F" >
+                                </Border>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Border>
+           
         </Grid>
     </Border>
 </Window>

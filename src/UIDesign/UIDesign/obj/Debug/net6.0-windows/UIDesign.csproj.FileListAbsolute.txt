@@ -1,58 +1,29 @@
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.AssemblyReference.cache
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\MainWindow.g.cs
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\App.g.cs
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign_MarkupCompile.cache
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign_MarkupCompile.lref
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.exe
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.deps.json
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.runtimeconfig.json
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.dll
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.pdb
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\ControlzEx.dll
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.dll
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
-E:\WPF UI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\App.baml
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\MainWindow.baml
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.g.resources
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.GeneratedMSBuildEditorConfig.editorconfig
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfoInputs.cache
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfo.cs
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.CoreCompileInputs.cache
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.CopyComplete
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.dll
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\refint\UIDesign.dll
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.pdb
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.genruntimeconfig.cache
-E:\WPF UI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\ref\UIDesign.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.exe
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.deps.json
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.runtimeconfig.json
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.pdb
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\ControlzEx.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.AssemblyReference.cache
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\MainWindow.g.cs
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\App.g.cs
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign_MarkupCompile.cache
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign_MarkupCompile.lref
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\App.baml
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\MainWindow.baml
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.g.resources
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.GeneratedMSBuildEditorConfig.editorconfig
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfoInputs.cache
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfo.cs
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.CoreCompileInputs.cache
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.CopyComplete
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\refint\UIDesign.dll
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.pdb
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.genruntimeconfig.cache
-D:\WPF UI\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\ref\UIDesign.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.exe
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.deps.json
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.runtimeconfig.json
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\UIDesign.pdb
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\ControlzEx.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.AssemblyReference.cache
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\App.g.cs
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign_MarkupCompile.cache
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign_MarkupCompile.lref
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\App.baml
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\MainWindow.baml
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.g.resources
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.GeneratedMSBuildEditorConfig.editorconfig
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfoInputs.cache
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.AssemblyInfo.cs
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.CoreCompileInputs.cache
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.csproj.CopyComplete
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\refint\UIDesign.dll
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.pdb
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\UIDesign.genruntimeconfig.cache
+E:\WPF\WPFUI\src\UIDesign\UIDesign\obj\Debug\net6.0-windows\ref\UIDesign.dll
